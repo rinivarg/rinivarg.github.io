@@ -17,11 +17,11 @@
     }
     .container {
       max-width: 8.5in;
-      min-height: calc(100vh - 80px); /* Adjust 80px if needed for header/padding */
+      min-height: calc(100vh - 40px); /* Reduced from 80px to 40px for less top margin */
       align-items: stretch;
       margin: 0 auto;
       display: grid;
-      grid-template-columns: 1.1fr 1.8fr;
+      grid-template-columns: 0.9fr 2fr;
       gap: 20px;
     }
     h1 {
@@ -34,7 +34,7 @@
       justify-content: space-between;
       border-bottom: 2px solid #ccc;
       padding-bottom: 10px;
-      margin-bottom: 15px;
+      margin-bottom: 20px;
     }
     .contact {
       font-size: 10px;
@@ -82,14 +82,17 @@
     .job-description {
       font-size: 11px;
       margin-bottom: 5px;
+      line-height: 1.3;
     }
     ul {
+      font-size: 11px;
       margin: 5px 0;
-      padding-left: 20px;
+      padding-left: 10px;
+      line-height: 1.2;
     }
     li {
       margin-bottom: 4px;
-      line-height: 1.3;
+      line-height: 1.2;
     }
     .profile {
       font-size: 11px;
@@ -188,6 +191,7 @@
           <span class="skill-tag">C# / Unity</span>
           <span class="skill-tag">JavaScript</span>
           <span class="skill-tag">SPSS</span>
+          <span class="skill-tag">Statistical Modeling</span>
           <span class="skill-tag">HTML / CSS</span>
         </div>
       </div>
@@ -231,8 +235,7 @@
       <div class="section">
         <h2>PROFILE</h2>
         <div class="profile">
-          Human-centered clinical researcher and product specialist with 8+ years' experience developing and validating digital health and neurotechnology solutions. Skilled in end-to-end development—from user needs and usability testing to technical validation and cross-functional coordination. Proven ability to bridge clinical insight with engineering and UX design in regulated healthcare environments.
-        </div>
+        Human sensorimotor neuroscientist with 10+ years of end-to-end experience conducting human-subject research in motor control, learning, perception, and embodied cognition. Skilled in experimental design, IRB protocols, participant engagement, and advanced data analysis (MATLAB, R). Strong communicator with a proven ability to develop custom research tools and collaborate cross-functionally with engineers, designers, and product teams. Passionate about translating neuroscience into performance-driven innovation.        </div>
       </div>
       <div class="section">
         <h2>EXPERIENCE</h2>
@@ -240,39 +243,37 @@
           <div class="job-title">Postdoctoral Researcher</div>
           <div class="job-company">Johns Hopkins University / Kennedy Krieger Institute</div>
           <div class="job-date">2021 – Present</div>
-          <div class="job-description">
-            Co-led design and validation of MovementVR, a pediatric VR motor learning system. Led IRB-compliant clinical trials, collaborated across engineering and clinical teams, and created open-source tools to support usability and scalability in healthcare settings.
-          </div>
           <ul>
-            <li>Designed and deployed multi-site clinical studies for digital therapeutics.</li>
-            <li>Conducted UX evaluations with clinicians and patients to iterate platform design.</li>
-            <li>Translated research findings into functional prototypes and system improvements.</li>
+            <li style="margin-bottom:2px;">Designed VR experimental protocols and analyzed 3D kinematic data, collaborating with engineering teams to optimize user experience for 160+ participants</li>
+            <li style="margin-bottom:2px;">Co-developed <em>MovementVR</em>, an open-source platform enabling scalable behavioral research, improving data collection efficiency by 40%</li>
+            <li style="margin-bottom:2px;">Generated behavioral insights on motor learning patterns, informing design decisions for rehabilitation technology stakeholders</li>
+            <li style="margin-bottom:2px;">Developed reproducible data pipelines and codebooks for cross-functional teams, enabling seamless knowledge transfer</li>
+            <li style="margin-bottom:2px;">Received $100K+ NIH T32 Fellowship funding and published 5+ papers, demonstrating research impact and validation</li>
+            <li style="margin-bottom:2px;">Mentored 3 junior researchers and received institute-wide research poster award</li>
           </ul>
         </div>
         <div class="job">
           <div class="job-title">Doctoral Researcher</div>
           <div class="job-company">University of Southern California</div>
           <div class="job-date">2015 – 2021</div>
-          <div class="job-description">
-            Developed tools and protocols for sensor-integrated assessment of stroke recovery. Oversaw clinical research teams and contributed to NIH-funded translational neuroscience studies.
-          </div>
           <ul>
-            <li>Built remote testing platforms for neuro-assessment with emphasis on accessibility.</li>
-            <li>Managed data integrity and clinical compliance across multi-year studies.</li>
-            <li>Mentored cross-disciplinary teams in data strategy, analysis, and reporting.</li>
+            <li style="margin-bottom:2px;">Led human factors validation of motor control assessments with 50+ stroke patients, partnering with clinical and engineering teams</li>
+            <li style="margin-bottom:2px;">Contributed to clinical trial design and execution (NCT03634397), ensuring regulatory compliance and user safety</li>
+            <li style="margin-bottom:2px;">Developed open-source <em>Computerized Line Bisection Test</em> based on user feedback, improving spatial neglect assessment accessibility</li>
+            <li style="margin-bottom:2px;">Derived behavioral insights from motion capture data that informed rehabilitation technology design recommendations</li>
+            <li style="margin-bottom:2px;">Secured $75K+ NIH F31 Fellowship funding and published 7+ peer-reviewed papers</li>
+            <li style="margin-bottom:2px;">Mentored 8 researchers and received multiple awards including SfN Trainee Award and NSF Travel Award</li>
           </ul>
         </div>
         <div class="job">
           <div class="job-title">Graduate Research Assistant</div>
           <div class="job-company">University of Illinois at Chicago</div>
           <div class="job-date">2012 – 2015</div>
-          <div class="job-description">
-            Designed user-centered clinical studies evaluating Tai Chi’s motor and cognitive benefits. Employed EMG and posturography in older adult populations.
-          </div>
           <ul>
-            <li>Integrated quantitative movement data into cognitive task performance metrics.</li>
-            <li>Adapted testing tools for low-mobility and cognitively diverse participants.</li>
-            <li>Presented findings nationally and co-authored peer-reviewed publications.</li>
+            <li style="margin-bottom:2px;">Built recruitment pipelines with community partners, developing user-centered approaches for engaging 40+ older adults</li>
+            <li style="margin-bottom:2px;">Established reliability and validity protocols for EMG and force-plate sensors, ensuring robust data quality for behavioral analysis</li>
+            <li style="margin-bottom:2px;">Generated behavioral insights on aging and motor control that informed evidence-based intervention recommendations</li>
+            <li style="margin-bottom:2px;">Published 5 papers (3 first-author) and presented findings at national conferences, validating research impact</li>
           </ul>
         </div>
       </div>
