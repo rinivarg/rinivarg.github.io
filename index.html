@@ -3,7 +3,13 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Rini Varghese - Resume</title>
+  <script>
+    const today = new Date();
+    const yyyy = today.getFullYear();
+    const mm = String(today.getMonth() + 1).padStart(2, '0');
+    const dd = String(today.getDate()).padStart(2, '0');
+    document.title = `Varghese-Resume-${yyyy}${mm}${dd}`;
+  </script>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
   <style>
     body {
@@ -34,7 +40,7 @@
       justify-content: space-between;
       border-bottom: 2px solid #ccc;
       padding-bottom: 10px;
-      margin-bottom: 20px;
+      margin-bottom: 15px;
     }
     .contact {
       font-size: 10px;
